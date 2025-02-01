@@ -1,4 +1,3 @@
-/* Overall Page Structure */
 .page-container {
     display: flex;
     flex-direction: column;
@@ -22,7 +21,7 @@
 
 .header h1 {
     font-family: 'Sixtyfour', sans-serif;
-    font-size: 1.3rem;  /* Reduced font size */
+    font-size: 1.3rem;  
     margin: 0;
     color: #fff;
 }
@@ -34,10 +33,10 @@
     justify-content: center;
     align-items: center;
     background-color: #f3f3f3;
-    padding: 10px;  /* Reduced padding */
+    padding: 10px; 
     box-sizing: border-box;
-    height: calc(100vh - 2.2cm);  /* Adjusted height */
-    margin-top: 1.5cm;  /* Reduced top margin */
+    height: calc(100vh - 2.2cm);  
+    margin-top: 1.5cm; 
 }
 
 /* OTP Form */
@@ -54,16 +53,16 @@
     padding: 15px;
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    width: 320px;  /* Reduced width */
+    width: 320px;
     text-align: center;
     min-height: auto;
-    margin-top: 45px;  /* Increased margin-top to push the form down */
+    margin-top: 45px;  
 }
 
 /* Adjust the spacing for the OTP header */
 .login-form h2 {
-    margin-top: 20px;  /* Increased margin-top to push header down */
-    font-size: 20px;  /* Slightly smaller font size */
+    margin-top: 20px; 
+    font-size: 20px; 
     font-weight: bold;
 }
 
@@ -72,24 +71,24 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 10px;  /* Reduced bottom margin */
+    margin-bottom: 10px;  
 }
 
 .login-image {
     width: 100%;
-    max-width: 220px;  /* Reduced size */
+    max-width: 220px; 
     height: auto;
 }
 
 /* Input Styles */
 .input-group {
     position: relative;
-    margin-bottom: 12px;  /* Reduced bottom margin */
+    margin-bottom: 12px;  
 }
 
 .input-group input {
     width: 100%;
-    padding: 8px;  /* Reduced padding */
+    padding: 8px; 
     border: 1px solid #ccc;
     border-radius: 5px;
     font-size: 14px;
@@ -99,22 +98,22 @@
 .otp-input {
     display: flex;
     justify-content: space-between;
-    gap: 2px;  /* Reduced gap */
+    gap: 2px;  
     margin-bottom: 10px;
 }
 
 .otp-input input {
-    width: 30px;  /* Further reduce width */
-    height: 35px;  /* Adjusted height */
+    width: 30px;  
+    height: 35px;  
     text-align: center;
-    font-size: 16px;  /* Slightly smaller font */
+    font-size: 16px;  
     border: 1px solid #ccc;
     border-radius: 5px;
 }
 
 /* Message */
 .message {
-    font-size: 10px;  /* Reduced font size */
+    font-size: 10px; 
     color: #666;
     margin-bottom: 10px;
 }
@@ -139,9 +138,9 @@
 
 /* Links */
 .links {
-    margin-top: 10px;  /* Reduced top margin */
+    margin-top: 10px;  
     text-align: center;
-    font-size: 12px;  /* Reduced font size */
+    font-size: 12px;  
 }
 
 .links span {
@@ -149,7 +148,7 @@
     text-decoration: none;
     font-weight: bold;
     cursor: pointer;
-    font-size: 10px;  /* Reduced font size further */
+    font-size: 10px;  
 }
 
 .links span:hover {
@@ -172,13 +171,12 @@
     text-align: center;
 }
 
-/* Back to login link */
 .back-to-login {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 8px;
-    margin-top: 10px;  /* Reduced margin-top */
+    gap: 4px; 
+    margin-top: 10px;  
     font-size: 14px;
     text-align: center;
     color: #007bff;
@@ -193,7 +191,7 @@
 
 /* Back icon styling */
 .back-icon {
-    width: 20px; /* Adjust size as needed */
+    width: 20px; 
     height: 20px;
 }
 
@@ -228,11 +226,11 @@
 }
 
 .grey-text {
-    color: #666;  /* Grey color */
+    color: #666;  
     font-weight: normal;
 }
 
 .blue-text {
-    color: #007bff;  /* Blue color */
+    color: #007bff; 
     font-weight: bold;
 }

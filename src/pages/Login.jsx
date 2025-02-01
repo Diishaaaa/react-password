@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import 'C:/Users/ASUS/react-merged/src/login.css'; // Adjust path as per your project structure
-import loginImage from 'C:/Users/ASUS/react-merged/src/assets/19184614_6101000 1.png'; // Import the image
+import 'C:/Users/ASUS/react-merged/src/login.css';
+import loginImage from 'C:/Users/ASUS/react-merged/src/assets/19184614_6101000 1.png'; 
 
 const Login = () => {
   const [passwordVisible, setPasswordVisible] = useState(false);

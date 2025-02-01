@@ -3,7 +3,7 @@ import Login from './pages/Login';
 import OAuth from './pages/OAuth';
 import SignUp from './pages/SignUp';
 import ForgotPassword from './pages/ForgotPassword'; 
-import Otp from './pages/otp';  // Ensure 'otp' matches the lowercase filename
+import Otp from './pages/otp';  
 
 function App() {
   return (

@@ -1,18 +1,17 @@
-/* Overall Page Structure */
 .page-container {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
     background-color: #f4f4f4;
     background-image: radial-gradient(circle, #ccc 1px, transparent 1px); /* Dot pattern */
-    background-size: 30px 30px; /* Adjust dot spacing */
-    background-attachment: fixed; /* Keeps background fixed */
+    background-size: 30px 30px; 
+    background-attachment: fixed; 
   }
   
   /* Header */
   .header {
-    background-color: #000; /* Black background */
-    height: 2cm; /* Header height */
+    background-color: #000;
+    height: 2cm; 
     display: flex;
     align-items: center;
     justify-content: flex-start;
@@ -23,13 +22,13 @@
   .header .logo {
     font-family: 'Sixtyfour', sans-serif;
     font-size: 1.5rem;
-    color: #fff; /* White text */
+    color: #fff; 
   }
   
   /* OAuth Container */
   .oauth-container {
     display: flex;
-    justify-content: center; /* Center the OAuth box */
+    justify-content: center;
     align-items: center;
     flex: 1;
     background-color: #f4f4f4;
@@ -44,7 +43,7 @@
     width: 100%;
     max-width: 400px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    margin-top: 3.8cm; /* Adjusted margin-top */
+    margin-top: 3.8cm;
     text-align: center;
   }
   

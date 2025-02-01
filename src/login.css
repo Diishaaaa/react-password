@@ -1,18 +1,17 @@
-/* Overall Page Structure */
 .page-container {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    overflow: hidden; /* Prevent scrolling */
-    background-image: radial-gradient(circle, #ccc 1px, transparent 1px); /* Add the dot background */
-    background-size: 20px 20px; /* Controls dot spacing */
-    background-color: #f3f3f3; /* Set a fallback background color */
+    overflow: hidden; 
+    background-image: radial-gradient(circle, #ccc 1px, transparent 1px); 
+    background-size: 20px 20px; 
+    background-color: #f3f3f3; 
   }
   
   /* Header */
   .header {
-    background-color: #000; /* Black background */
-    height: 2cm; /* Increased header height */
+    background-color: #000; 
+    height: 2cm; 
     display: flex;
     align-items: center;
     justify-content: flex-start;
@@ -24,7 +23,7 @@
     font-family: 'Sixtyfour', sans-serif;
     font-size: 1.5rem;
     margin: 0;
-    color: #fff; /* White text */
+    color: #fff; 
   }
   
   /* Main Content */
@@ -36,9 +35,9 @@
     background-color: #f3f3f3;
     padding: 20px;
     box-sizing: border-box;
-    height: calc(100vh - 2cm); /* Ensures content fits in the remaining space */
-    overflow: hidden; /* Prevent scrolling within main content */
-    margin-top: 3.5cm; /* Adjusted margin-top */
+    height: calc(100vh - 2cm); 
+    overflow: hidden; 
+    margin-top: 3.5cm; 
   }
   
   /* Login Form */
@@ -47,21 +46,21 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 100%; /* Ensures container takes up full width */
+    width: 100%; 
   }
   
   .login-form {
     background: #ffffff;
-    padding: 10px; /* Reduced padding */
+    padding: 10px; 
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    width: 450px; /* Fixed width for the login form */
+    width: 450px; 
     text-align: center;
-    min-height: 350px; /* Adjusted minimum height */
+    min-height: 350px; 
   }
   
   .login-form h2 {
-    margin-top: 20px; /* Add margin to push down the "Log In" text */
+    margin-top: 20px; 
     font-size: 24px;
     font-weight: bold;
   }
@@ -76,7 +75,7 @@
   
   .login-image {
     width: 100%;
-    max-width: 250px; /* Reduced width of the image */
+    max-width: 250px; 
     height: auto;
   }
   
@@ -123,9 +122,9 @@
   .forgot-password {
     text-align: right;
     font-size: 10px;
-    margin-top: 10px; /* Adjust margin-top for positioning */
+    margin-top: 10px; 
     position: relative;
-    top: -8px; /* Move it slightly up to center between the password and Log In */
+    top: -8px; 
   }
   
   /* Login Button */
@@ -140,7 +139,7 @@
     font-size: 16px;
     font-weight: bold;
     transition: background 0.3s ease;
-    margin-top: 0px; /* Adjust margin-top to create space below Forgot Password */
+    margin-top: 0px; 
   }
   .login-btn:hover {
     background: #444;

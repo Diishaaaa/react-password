@@ -116,7 +116,7 @@ const OTPVerification = () => {
             <div className="back-to-login" onClick={() => navigate('/')}>
               <img src={backIcon} alt="Back" className="back-icon" />
               <span className="grey-text">Back to</span>
-              <span className="blue-text"> Login</span>
+              <span className="blue-text">Login</span>
             </div>
           </div>
         </div>

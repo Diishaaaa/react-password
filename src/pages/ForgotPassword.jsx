@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import "C:/Users/ASUS/react-password/src/ForgotPassword.css"; // Ensure the correct CSS path
-import resetPasswordImage from '../assets/19184614_6101000 1.png'; // Adjust the path if needed
+import "C:/Users/ASUS/react-password/src/ForgotPassword.css"; 
+import resetPasswordImage from '../assets/19184614_6101000 1.png'; 
 
 const ForgotPassword = () => {
   const [password, setPassword] = useState('');
@@ -27,7 +27,7 @@ const ForgotPassword = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     if (validatePassword()) {
-      alert('Password successfully updated!'); // Replace with actual logic
+      alert('Password successfully updated!');
     }
   };
 
