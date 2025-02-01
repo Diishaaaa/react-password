@@ -1,0 +1,181 @@
+/* Overall Page Structure */
+.page-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    overflow: hidden; /* Prevent scrolling */
+    background-image: radial-gradient(circle, #ccc 1px, transparent 1px); /* Add the dot background */
+    background-size: 20px 20px; /* Controls dot spacing */
+    background-color: #f3f3f3; /* Set a fallback background color */
+  }
+  
+  /* Header */
+  .header {
+    background-color: #000; /* Black background */
+    height: 2cm; /* Increased header height */
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 20px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .header h1 {
+    font-family: 'Sixtyfour', sans-serif;
+    font-size: 1.5rem;
+    margin: 0;
+    color: #fff; /* White text */
+  }
+  
+  /* Main Content */
+  .main-content {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f3f3f3;
+    padding: 20px;
+    box-sizing: border-box;
+    height: calc(100vh - 2cm); /* Ensures content fits in the remaining space */
+    overflow: hidden; /* Prevent scrolling within main content */
+    margin-top: 3.5cm; /* Adjusted margin-top */
+  }
+  
+  /* Login Form */
+  .login-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%; /* Ensures container takes up full width */
+  }
+  
+  .login-form {
+    background: #ffffff;
+    padding: 10px; /* Reduced padding */
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 450px; /* Fixed width for the login form */
+    text-align: center;
+    min-height: 350px; /* Adjusted minimum height */
+  }
+  
+  .login-form h2 {
+    margin-top: 20px; /* Add margin to push down the "Log In" text */
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  /* Image Container */
+  .image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .login-image {
+    width: 100%;
+    max-width: 250px; /* Reduced width of the image */
+    height: auto;
+  }
+  
+  /* Input Styles */
+  .input-group {
+    position: relative;
+    margin-bottom: 15px;
+  }
+  
+  .input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  
+  .password-group {
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+  
+  .password-group input {
+    flex: 1;
+    padding-right: 40px;
+  }
+  
+  .password-toggle-icon {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 12px;
+    cursor: pointer;
+    color: #888;
+  }
+  
+  .password-toggle-icon:hover {
+    color: #000;
+  }
+  
+  /* Forgot Password Link */
+  .forgot-password {
+    text-align: right;
+    font-size: 10px;
+    margin-top: 10px; /* Adjust margin-top for positioning */
+    position: relative;
+    top: -8px; /* Move it slightly up to center between the password and Log In */
+  }
+  
+  /* Login Button */
+  .login-btn {
+    width: 100%;
+    padding: 10px;
+    background: #000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background 0.3s ease;
+    margin-top: 0px; /* Adjust margin-top to create space below Forgot Password */
+  }
+  .login-btn:hover {
+    background: #444;
+  }
+  
+  /* Links */
+  .links {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 14px;
+  }
+  
+  .links a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .links a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Footer */
+  .footer {
+    background-color: #000000;
+    height: 0.7cm;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .footer p {
+    font-size: 0.8rem;
+    color: #ffffff;
+    margin: 0;
+    text-align: center;
+  }
+  
